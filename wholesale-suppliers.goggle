@@ -1,0 +1,80 @@
+! name: GateKey Wholesale Suppliers
+! description: Boosts real B2B wholesale distributor sites and discards marketplaces, social media, and consumer retail for GateKey supplier discovery.
+! public: true
+! author: GateKey / erickcoellobatista-hue
+
+! ── BOOST: Directorios y plataformas B2B mayoristas ─────────────────────────
+! Estos sitios indexan distribuidores reales — queremos que aparezcan primero.
+
+$boost=5,site=wholesalecentral.com
+$boost=5,site=tundra.com
+$boost=5,site=faire.com
+$boost=4,site=globalsources.com
+$boost=4,site=thomasnet.com
+$boost=4,site=handshake.com
+$boost=3,site=rangehme.com
+$boost=3,site=tradekey.com
+$boost=3,site=asdmarketweek.com
+$boost=3,site=naed.org
+$boost=3,site=nawla.org
+$boost=2,site=bbb.org
+
+! ── BOOST: Señales de página B2B en la URL ───────────────────────────────────
+! Páginas con estas rutas en la URL son landing pages de programas wholesale.
+
+$boost=10,inurl=dealer-application
+$boost=10,inurl=wholesale-application
+$boost=10,inurl=become-a-dealer
+$boost=10,inurl=become-a-reseller
+$boost=10,inurl=reseller-application
+$boost=9,inurl=open-account
+$boost=9,inurl=wholesale-account
+$boost=9,inurl=dealer-program
+$boost=9,inurl=reseller-program
+$boost=8,inurl=wholesale-signup
+$boost=8,inurl=dealer-signup
+$boost=8,inurl=apply-wholesale
+$boost=7,inurl=wholesale-pricing
+$boost=7,inurl=line-sheet
+$boost=7,inurl=price-list
+
+! ── DISCARD: Marketplaces de consumidor ──────────────────────────────────────
+! Nunca queremos resultados de estos dominios en una búsqueda de proveedores B2B.
+
+$discard,site=amazon.com
+$discard,site=amazon.ca
+$discard,site=ebay.com
+$discard,site=walmart.com
+$discard,site=target.com
+$discard,site=bestbuy.com
+$discard,site=costco.com
+$discard,site=homedepot.com
+$discard,site=lowes.com
+$discard,site=wayfair.com
+$discard,site=overstock.com
+$discard,site=etsy.com
+$discard,site=aliexpress.com
+$discard,site=alibaba.com
+$discard,site=made-in-china.com
+
+! ── DISCARD: Redes sociales y foros ──────────────────────────────────────────
+
+$discard,site=reddit.com
+$discard,site=quora.com
+$discard,site=facebook.com
+$discard,site=instagram.com
+$discard,site=tiktok.com
+$discard,site=twitter.com
+$discard,site=x.com
+$discard,site=pinterest.com
+$discard,site=youtube.com
+$discard,site=linkedin.com
+
+! ── DISCARD: Directorios genéricos sin valor B2B ─────────────────────────────
+
+$discard,site=yelp.com
+$discard,site=yellowpages.com
+$discard,site=manta.com
+$discard,site=dnb.com
+$discard,site=hoovers.com
+$discard,site=wikipedia.org
