@@ -1,0 +1,57 @@
+! name: GateKey Wholesale Suppliers
+! description: Boosts real B2B wholesale distributor directories and discards marketplaces for supplier discovery.
+! public: true
+! author: erickcoellobatista-hue
+
+$boost=5,site=wholesalecentral.com
+$boost=5,site=tundra.com
+$boost=5,site=faire.com
+$boost=4,site=globalsources.com
+$boost=4,site=thomasnet.com
+$boost=4,site=handshake.com
+$boost=3,site=rangehme.com
+$boost=3,site=tradekey.com
+
+/dealer-application/$boost=10
+/wholesale-application/$boost=10
+/become-a-dealer/$boost=10
+/become-a-reseller/$boost=10
+/reseller-application/$boost=10
+/open-account/$boost=9
+/wholesale-account/$boost=9
+/dealer-program/$boost=9
+/reseller-program/$boost=9
+/wholesale-signup/$boost=8
+/dealer-signup/$boost=8
+/apply-wholesale/$boost=8
+/line-sheet/$boost=7
+/price-list/$boost=6
+
+$discard,site=amazon.com
+$discard,site=amazon.ca
+$discard,site=ebay.com
+$discard,site=walmart.com
+$discard,site=target.com
+$discard,site=bestbuy.com
+$discard,site=costco.com
+$discard,site=homedepot.com
+$discard,site=lowes.com
+$discard,site=wayfair.com
+$discard,site=etsy.com
+$discard,site=aliexpress.com
+$discard,site=alibaba.com
+
+$discard,site=reddit.com
+$discard,site=quora.com
+$discard,site=facebook.com
+$discard,site=instagram.com
+$discard,site=tiktok.com
+$discard,site=twitter.com
+$discard,site=x.com
+$discard,site=pinterest.com
+$discard,site=youtube.com
+
+$discard,site=yelp.com
+$discard,site=yellowpages.com
+$discard,site=manta.com
+$discard,site=wikipedia.org
