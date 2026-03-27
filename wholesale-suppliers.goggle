@@ -1,6 +1,8 @@
  ! name: GateKey Wholesale Suppliers                                                                                                                                         ! description: Boosts real B2B wholesale distributor directories and discards marketplaces for supplier discovery.
-  ! public: true                                                                                                                                                              ! author: erickcoellobatista-hue
-                                                                                                                                                                              $boost=5,site=wholesalecentral.com
+  ! public: true
+  ! author: erickcoellobatista-hue
+
+  $boost=5,site=wholesalecentral.com
   $boost=5,site=tundra.com
   $boost=5,site=faire.com
   $boost=4,site=globalsources.com
@@ -9,20 +11,20 @@
   $boost=3,site=rangehme.com
   $boost=3,site=tradekey.com
 
-  *dealer-application*$boost=10
-  *wholesale-application*$boost=10
-  *become-a-dealer*$boost=10
-  *become-a-reseller*$boost=10
-  *reseller-application*$boost=10
-  *open-account*$boost=9
-  *wholesale-account*$boost=9
-  *dealer-program*$boost=9
-  *reseller-program*$boost=9
-  *wholesale-signup*$boost=8
-  *dealer-signup*$boost=8
-  *apply-wholesale*$boost=8
-  *line-sheet*$boost=7
-  *price-list*$boost=6
+  /dealer-application/$boost=10
+  /wholesale-application/$boost=10
+  /become-a-dealer/$boost=10
+  /become-a-reseller/$boost=10
+  /reseller-application/$boost=10
+  /open-account/$boost=9
+  /wholesale-account/$boost=9
+  /dealer-program/$boost=9
+  /reseller-program/$boost=9
+  /wholesale-signup/$boost=8
+  /dealer-signup/$boost=8
+  /apply-wholesale/$boost=8
+  /line-sheet/$boost=7
+  /price-list/$boost=6
 
   $discard,site=amazon.com
   $discard,site=amazon.ca
@@ -52,4 +54,3 @@
   $discard,site=yellowpages.com
   $discard,site=manta.com
   $discard,site=wikipedia.org
-
